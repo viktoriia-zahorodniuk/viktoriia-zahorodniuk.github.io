@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Вікторія Загороднюк</title>
+<meta name="description" content="Вікторія Загороднюк, керівниця напряму медичного страхування АСТОН Україна. Корпоративне медичне страхування з командним супроводом АСТОН: аналіз потреб, тендер, погодження умов і супровід протягом дії договору.">
+<meta property="og:title" content="Вікторія Загороднюк · Корпоративне медичне страхування">
+<meta property="og:description" content="Медичне страхування для вашої команди із супроводом команди АСТОН Україна.">
+<meta property="og:image" content="img/viktoriia.webp">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Nunito+Sans:opsz,wght@6..12,600;6..12,700;6..12,800&display=swap">
+
+<script>
+/* =========================================================
+   ДАНІ ДЛЯ ЗАМІНИ — усе редагується тут.
+   Порожній рядок "" ховає відповідний рядок на сторінці.
+   ========================================================= */
+window.SITE_CONFIG = {
+  name:      "Вікторія Загороднюк",
+  position:  "Керівниця напряму медичного страхування",
+  company:   "АСТОН Україна",
+  phone:     "+38 (067) 794 63 24",
+  email:     "viktoriia.z@aston.com.ua",
+  linkedin:  "",   // https://www.linkedin.com/in/...
+  calendly:  "https://calendly.com/viktoriia-z-aston/konsultatsiia",
+  photo:     "img/viktoriia.webp",
+  office:    "Київ, вул. Казимира Малевича, 86П, БЦ «Либідь», офіс 312",
+  website:   "https://aston.com.ua"
+};
+</script>
+
+<style>
+/* Layout: білий аркуш, світло-блакитна смуга героя з фото, фірмовий синій АСТОН як єдиний акцент, темно-синя смуга контактів */
+:root{
+  --bg:#FFFFFF; --tint:#F4F7FE; --panel:#F0F4F7; --surface:#FFFFFF;
+  --ink:#22232A; --text:#393B42; --muted:#5D606B; --line:#DFE4EC;
+  --blue:#3C3EEA; --blue-ink:#2F31D0; --deep:#0A0CA6; --sky:#87AAF8; --sky-soft:#E7EDFD;
+  --band:#0A0CA6; --band-ink:#F4F7FE; --band-soft:#C9D4FB; --band-line:rgba(244,247,254,.18);
+  --btn:#3C3EEA; --btn-ink:#FFFFFF;
+  --f-head:"Nunito Sans", "Segoe UI", Arial, sans-serif;
+  --f-body:"Golos Text", "Segoe UI", Roboto, Arial, sans-serif;
+  --wrap:1160px; --r:20px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0C0E24; --tint:#12153A; --panel:#161A40; --surface:#151938;
+  --ink:#F2F4FC; --text:#D5D9E8; --muted:#A3A9C2; --line:#272C55;
+  --blue:#8E90FF; --blue-ink:#A9ABFF; --deep:#C9CCFF; --sky:#87AAF8; --sky-soft:#1C2150;
+  --band:#1A1C8C; --band-ink:#F4F7FE; --band-soft:#C9D4FB; --band-line:rgba(244,247,254,.18);
+  --btn:#8E90FF; --btn-ink:#0C0E24; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0C0E24; --tint:#12153A; --panel:#161A40; --surface:#151938;
+  --ink:#F2F4FC; --text:#D5D9E8; --muted:#A3A9C2; --line:#272C55;
+  --blue:#8E90FF; --blue-ink:#A9ABFF; --deep:#C9CCFF; --sky:#87AAF8; --sky-soft:#1C2150;
+  --band:#1A1C8C; --band-ink:#F4F7FE; --band-soft:#C9D4FB; --band-line:rgba(244,247,254,.18);
+  --btn:#8E90FF; --btn-ink:#0C0E24; color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:88px}
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *{transition:none!important} }
+body{background:var(--bg); color:var(--text); font-family:var(--f-body); font-size:17px; line-height:1.6}
+body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-inset-top,0px); z-index:30; background:var(--surface)}
+.wrap{max-width:var(--wrap); margin:0 auto; padding-left:max(20px, env(safe-area-inset-left,0px)); padding-right:max(20px, env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-head); color:var(--ink); line-height:1.15; text-wrap:balance; margin:0; font-weight:800}
+h2{font-size:clamp(1.75rem, 1.2rem + 1.9vw, 2.6rem); letter-spacing:-.01em}
+h3{font-size:1.15rem; font-weight:700; line-height:1.3}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue); outline-offset:3px; border-radius:8px}
+.skip{position:absolute; left:-9999px} .skip:focus{left:16px; top:16px; z-index:50; background:var(--surface); padding:8px 14px}
+.eyebrow{font-family:var(--f-head); font-size:.8rem; letter-spacing:.12em; text-transform:uppercase; color:var(--blue); font-weight:800}
+.lead{color:var(--muted); max-width:60ch; font-size:1.06rem}
+
+/* buttons */
+.btns{display:flex; flex-wrap:wrap; gap:12px}
+.btn{display:inline-flex; align-items:center; justify-content:center; gap:10px; min-height:52px; padding:0 26px; border-radius:12px; font-weight:600; font-size:1rem; text-decoration:none; border:1.5px solid var(--btn); transition:transform .15s, background .15s, border-color .15s}
+.btn-primary{background:var(--btn); color:var(--btn-ink)}
+.btn-primary:hover{background:var(--blue-ink); border-color:var(--blue-ink)}
+.btn-ghost{background:transparent; color:var(--ink); border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--blue); color:var(--blue)}
+.btn:hover{transform:translateY(-1px)}
+.btn svg{width:18px; height:18px; flex:none}
+
+/* header */
+header.site{position:sticky; top:env(safe-area-inset-top,0px); z-index:20; background:color-mix(in srgb, var(--surface) 94%, transparent); backdrop-filter:blur(10px); border-bottom:1px solid var(--line)}
+.bar{display:flex; align-items:center; justify-content:space-between; gap:16px; min-height:72px}
+.brand{display:flex; align-items:center; gap:14px; text-decoration:none; min-width:0}
+.brand img{height:38px; width:auto; display:block}
+.brand .logo-dark{display:none}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .brand .logo-light-bg{display:none} :root:not([data-theme="light"]) .brand .logo-dark{display:block} }
+:root[data-theme="dark"] .brand .logo-light-bg{display:none} :root[data-theme="dark"] .brand .logo-dark{display:block}
+.brand-name{padding-left:14px; border-left:1px solid var(--line); font-size:.88rem; line-height:1.3; color:var(--muted)}
+.brand-name b{display:block; color:var(--ink); font-weight:600}
+nav ul{list-style:none; margin:0; padding:0; display:flex; align-items:center; gap:2px}
+nav a{display:block; padding:8px 12px; border-radius:10px; text-decoration:none; font-size:.95rem; color:var(--text)}
+nav a:hover{color:var(--blue); background:var(--sky-soft)}
+nav a.nav-cta{background:var(--btn); color:var(--btn-ink); margin-left:8px; padding:9px 16px; font-weight:600}
+nav a.nav-cta:hover{background:var(--blue-ink); color:var(--btn-ink)}
+.menu-btn{display:none; background:none; border:1px solid var(--line); color:var(--ink); border-radius:10px; min-height:44px; padding:0 14px; font:inherit; font-weight:500; cursor:pointer}
+@media (max-width: 1020px){
+  .menu-btn{display:inline-block}
+  nav{position:absolute; left:0; right:0; top:100%; background:var(--surface); border-bottom:1px solid var(--line); display:none}
+  nav.open{display:block}
+  nav ul{flex-direction:column; align-items:stretch; padding:8px max(20px, env(safe-area-inset-right,0px)) 18px max(20px, env(safe-area-inset-left,0px))}
+  nav a{padding:12px; font-size:1.05rem}
+  nav a.nav-cta{margin:8px 0 0; text-align:center}
+}
+@media (max-width: 520px){ .brand-name{display:none} }
+
+/* hero */
+.hero{background:var(--tint); position:relative; overflow:hidden}
+.hero::after{content:""; position:absolute; right:-120px; top:-80px; width:520px; height:520px; border-radius:50%; background:radial-gradient(circle, color-mix(in srgb, var(--sky) 30%, transparent), transparent 70%); pointer-events:none}
+.hero .wrap{position:relative; z-index:1; padding-block:clamp(44px, 6vw, 88px)}
+.hero-grid{display:grid; grid-template-columns:minmax(0,1.3fr) minmax(0,.9fr); gap:clamp(32px,5vw,72px); align-items:center}
+.hero-text{display:grid; gap:24px; min-width:0}
+.tagline{display:inline-flex; flex-wrap:wrap; align-items:center; gap:8px 10px; font-size:.95rem; color:var(--muted)}
+.tagline .dot{width:6px; height:6px; border-radius:50%; background:var(--blue)}
+.tagline strong{color:var(--ink); font-weight:600}
+.hero h1{font-size:clamp(2.1rem, 1.25rem + 3.2vw, 3.6rem); letter-spacing:-.02em}
+.hero h1 span{color:var(--blue)}
+.hero-media{display:grid; justify-items:center}
+.portrait{position:relative; width:100%; max-width:380px}
+.portrait .frame{aspect-ratio:35/36; max-width:100%; border-radius:28px; overflow:hidden; background:var(--surface); box-shadow:0 30px 60px -36px rgba(10,12,166,.45)}
+.portrait img{width:100%; height:100%; object-fit:cover; display:block}
+.portrait .stripes{position:absolute; left:-26px; bottom:34px; width:64px; display:grid; gap:8px; transform:skewY(-16deg)}
+.portrait .stripes i{display:block; height:12px; background:var(--sky); border-radius:2px}
+.portrait .card{position:absolute; right:-8px; bottom:-22px; left:44px; background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:14px 18px; box-shadow:0 14px 30px -20px rgba(10,12,166,.5)}
+.portrait .card b{display:block; color:var(--ink); font-family:var(--f-head); font-weight:800; font-size:1.05rem}
+.portrait .card span{font-size:.88rem; color:var(--muted)}
+@media (max-width: 860px){ .hero-grid{grid-template-columns:1fr} .hero-media{justify-items:start; padding-bottom:28px} .portrait{max-width:330px} }
+
+/* sections */
+section.block{padding-block:clamp(60px, 7vw, 104px)}
+section.alt{background:var(--panel)}
+.head{display:grid; gap:14px; margin-bottom:44px; max-width:760px}
+
+.tasks{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:18px}
+.task{background:var(--surface); border:1px solid var(--line); border-radius:var(--r); padding:28px 26px; display:grid; gap:12px; align-content:start}
+.task .ico{width:44px; height:44px; border-radius:12px; background:var(--sky-soft); color:var(--blue); display:grid; place-items:center}
+.task .ico svg{width:22px; height:22px}
+.task p{color:var(--muted); font-size:.97rem}
+@media (max-width: 920px){ .tasks{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width: 580px){ .tasks{grid-template-columns:1fr} }
+
+.about{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.35fr); gap:clamp(32px,5vw,80px); align-items:start}
+.about .head{margin:0}
+.about-body{display:grid; gap:18px; max-width:64ch}
+.principles{list-style:none; padding:0; margin:10px 0 0; display:grid; gap:12px}
+.principles li{display:grid; grid-template-columns:28px minmax(0,1fr); gap:12px; align-items:start; padding:16px 18px; background:var(--tint); border-radius:14px}
+.principles svg{width:22px; height:22px; color:var(--blue); margin-top:2px}
+@media (max-width: 860px){ .about{grid-template-columns:1fr} }
+
+.team{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px}
+.fn{background:var(--surface); border-radius:var(--r); padding:26px 24px; display:grid; gap:10px; align-content:start; border-top:4px solid var(--blue)}
+.fn p{color:var(--muted); font-size:.96rem}
+.note{margin-top:28px; display:flex; gap:14px; align-items:flex-start; padding:18px 22px; background:var(--surface); border-radius:14px; max-width:820px; border:1px solid var(--line)}
+.note svg{width:22px; height:22px; color:var(--blue); flex:none; margin-top:2px}
+@media (max-width: 1000px){ .team{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width: 580px){ .team{grid-template-columns:1fr} }
+
+.steps{list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:24px; counter-reset:s}
+.steps li{counter-increment:s; display:grid; gap:10px; align-content:start; position:relative; padding-top:64px}
+.steps li::before{content:counter(s); position:absolute; top:0; left:0; width:46px; height:46px; border-radius:14px; background:var(--btn); color:var(--btn-ink); font-family:var(--f-head); font-weight:800; font-size:1.15rem; display:grid; place-items:center}
+.steps li::after{content:""; position:absolute; top:23px; left:58px; right:-12px; height:2px; background:repeating-linear-gradient(90deg, var(--sky) 0 8px, transparent 8px 14px)}
+.steps li:last-child::after{display:none}
+.steps p{color:var(--muted); font-size:.97rem}
+@media (max-width: 920px){ .steps{grid-template-columns:repeat(2,minmax(0,1fr)); row-gap:36px} .steps li:nth-child(2)::after{display:none} }
+@media (max-width: 540px){ .steps{grid-template-columns:1fr} .steps li::after{display:none} }
+
+.faq{display:grid; gap:12px; max-width:860px}
+.faq details{background:var(--surface); border:1px solid var(--line); border-radius:16px}
+.faq details[open]{border-color:var(--sky)}
+.faq summary{cursor:pointer; list-style:none; padding:20px 60px 20px 24px; font-weight:600; color:var(--ink); position:relative; font-size:1.04rem}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+"; position:absolute; right:20px; top:50%; transform:translateY(-50%); width:30px; height:30px; border-radius:50%; background:var(--sky-soft); color:var(--blue); display:grid; place-items:center; font-size:1.25rem; line-height:1}
+.faq details[open] summary::after{content:"−"}
+.faq .ans{padding:0 24px 22px; color:var(--muted); max-width:70ch}
+
+/* contacts */
+.contacts{background:var(--band); color:var(--band-ink); padding-block:clamp(64px,8vw,110px); position:relative; overflow:hidden}
+.contacts::before{content:""; position:absolute; right:6%; top:50%; width:220px; height:300px; transform:translateY(-50%) skewY(-16deg); background:repeating-linear-gradient(180deg, rgba(135,170,248,.22) 0 28px, transparent 28px 52px); pointer-events:none}
+.contacts .wrap{position:relative}
+.contacts .eyebrow{color:var(--band-soft)}
+.contacts h2{color:var(--band-ink); font-size:clamp(1.8rem, 1.2rem + 2.3vw, 2.9rem); max-width:20ch}
+.contacts .lead{color:var(--band-soft)}
+.c-grid{display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1fr); gap:56px; align-items:start}
+.c-list{list-style:none; margin:0; padding:6px 26px; background:rgba(255,255,255,.07); border:1px solid var(--band-line); border-radius:var(--r)}
+.c-list li{display:grid; grid-template-columns:120px minmax(0,1fr); gap:12px; padding:16px 0; border-bottom:1px solid var(--band-line); align-items:center}
+.c-list li:last-child{border-bottom:0}
+.c-list .k{color:var(--band-soft); font-size:.9rem}
+.c-list .v{font-size:1.04rem; overflow-wrap:anywhere; display:flex; flex-wrap:wrap; gap:10px; align-items:center}
+.c-list .v a{color:var(--band-ink); text-underline-offset:3px}
+.copy{background:none; border:1px solid rgba(244,247,254,.35); color:var(--band-ink); border-radius:999px; padding:2px 12px; font:inherit; font-size:.8rem; cursor:pointer}
+.copy:hover{background:rgba(255,255,255,.12)}
+.contacts .btn-primary{background:#FFFFFF; color:#0A0CA6; border-color:#FFFFFF}
+.contacts .btn-primary:hover{background:#E7EDFD; border-color:#E7EDFD}
+.contacts .btn-ghost{color:var(--band-ink); border-color:rgba(244,247,254,.4)}
+.contacts .btn-ghost:hover{border-color:var(--band-ink); color:var(--band-ink)}
+.contacts :focus-visible{outline-color:#BCEAFE}
+.free{display:inline-flex; gap:10px; align-items:center; font-size:.95rem; color:var(--band-soft)}
+.free svg{width:20px; height:20px; color:#BCEAFE}
+@media (max-width: 860px){ .c-grid{grid-template-columns:1fr; gap:36px} .c-list li{grid-template-columns:1fr; gap:2px} .contacts::before{display:none} }
+
+footer{padding-block:30px; font-size:.86rem; color:var(--muted); border-top:1px solid var(--line)}
+footer .wrap{display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px 24px}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M8 12.3l2.7 2.7L16.2 9.5"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><path d="M12 11v6M12 7.5v.01"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l7.5 3v5.2c0 4.4-3.1 7.9-7.5 9.3-4.4-1.4-7.5-4.9-7.5-9.3V6.5z"/><path d="M12 8.5v6M9 11.5h6"/></symbol>
+    <symbol id="i-review" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3.5h8l4 4V20.5H6z"/><path d="M14 3.5v4h4"/><circle cx="11.5" cy="13.5" r="2.8"/><path d="M13.6 15.6l2 2"/></symbol>
+    <symbol id="i-compare" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+    <symbol id="i-sign" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3.5h12v17H6z"/><path d="M9 8h6M9 11.5h6M9 15h3"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 19.5c.6-3.3 3-5.2 6-5.2s5.4 1.9 6 5.2"/><circle cx="17" cy="9" r="2.4"/><path d="M16.5 14.4c2.4.2 4 1.8 4.5 4.6"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5h17"/><path d="M5 16l4.5-4.5 3.5 3L19 8"/><path d="M15 8h4v4"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#main">Перейти до змісту</a>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="АСТОН Україна, на початок сторінки">
+      <img class="logo-light-bg" src="img/aston-logo.svg" alt="АСТОН Україна" width="200" height="62">
+      <img class="logo-dark" src="img/aston-logo-light.svg" alt="АСТОН Україна" width="200" height="62">
+      <span class="brand-name"><b data-field="name">Вікторія Загороднюк</b>Медичне страхування</span>
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" id="menu-btn">Меню</button>
+    <nav id="menu" aria-label="Розділи сторінки">
+      <ul>
+        <li><a href="#tasks">Завдання</a></li>
+        <li><a href="#about">Підхід</a></li>
+        <li><a href="#team">Команда</a></li>
+        <li><a href="#process">Як починаємо</a></li>
+        <li><a href="#faq">Питання</a></li>
+        <li><a class="nav-cta" href="#contacts">Контакти</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="tagline"><strong data-field="name">Вікторія Загороднюк</strong><span class="dot" aria-hidden="true"></span><span>Корпоративне медичне страхування · АСТОН Україна</span></p>
+        <h1 id="hero-title">Медичне страхування для ваших працівників — <span>із супроводом нашої команди</span></h1>
+        <p class="lead">Разом із командою АСТОН допомагаємо компаніям обирати та вдосконалювати програми медичного страхування і супроводжуємо їх на кожному етапі: від аналізу потреб і переговорів зі страховиками до вирішення питань протягом дії договору.</p>
+        <div class="btns">
+          <a class="btn btn-primary" href="#contacts" data-link="calendly"><svg aria-hidden="true"><use href="#i-cal"/></svg>Обговорити потреби компанії</a>
+          <a class="btn btn-ghost" href="#contacts">Зв’язатися з нами</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <figure class="portrait" style="margin:0">
+          <div class="stripes" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="frame"><img src="img/viktoriia.webp" alt="Вікторія Загороднюк" width="350" height="360" data-field-src="photo"></div>
+          <figcaption class="card"><b data-field="name">Вікторія Загороднюк</b><span data-field="position">Керівниця напряму медичного страхування</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="tasks" aria-labelledby="tasks-title">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">З якими завданнями допомагаємо</p>
+        <h2 id="tasks-title">Від першої програми до підсумків страхового року</h2>
+      </div>
+      <div class="tasks">
+        <article class="task"><span class="ico"><svg aria-hidden="true"><use href="#i-plus"/></svg></span><h3>Запровадити медичне страхування працівників</h3><p>Визначаємо, що важливо для компанії та команди, і формуємо основу програми під ваш бюджет.</p></article>
+        <article class="task"><span class="ico"><svg aria-hidden="true"><use href="#i-review"/></svg></span><h3>Переглянути чинну програму та її бюджет</h3><p>Аналізуємо умови, використання програми й витрати, щоб побачити, що варто змінити.</p></article>
+        <article class="task"><span class="ico"><svg aria-hidden="true"><use href="#i-compare"/></svg></span><h3>Організувати тендер і порівняти пропозиції</h3><p>Готуємо технічне завдання та зводимо пропозиції страховиків у зрозуміле порівняння.</p></article>
+        <article class="task"><span class="ico"><svg aria-hidden="true"><use href="#i-sign"/></svg></span><h3>Погодити умови покриття та договору</h3><p>Ведемо переговори зі страховиком і пояснюємо, що означає кожна важлива умова.</p></article>
+        <article class="task"><span class="ico"><svg aria-hidden="true"><use href="#i-people"/></svg></span><h3>Організувати супровід HR і працівників</h3><p>Допомагаємо HR донести програму до працівників і налагодити порядок звернень.</p></article>
+        <article class="task"><span class="ico"><svg aria-hidden="true"><use href="#i-chart"/></svg></span><h3>Проаналізувати результати страхового року</h3><p>Підсумовуємо, як працювала програма, і готуємо рекомендації на наступний період.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block alt" id="about" aria-labelledby="about-title">
+    <div class="wrap about">
+      <div class="head">
+        <p class="eyebrow">Наш підхід</p>
+        <h2 id="about-title">Програма має працювати і для бізнесу, і для людей</h2>
+        <p class="lead"><b data-field="name">Вікторія Загороднюк</b><br><span data-field="position">Керівниця напряму медичного страхування</span>, <span data-field="company">АСТОН Україна</span></p>
+      </div>
+      <div class="about-body">
+        <p>Медичне страхування для компанії — це водночас бюджет, інструмент турботи про команду й щоденні питання працівників. Ми з командою працюємо з усіма трьома сторонами: допомагаємо керівникам і фінансовій службі бачити цифри та наслідки рішень, а HR — отримати програму, яку легко пояснити людям.</p>
+        <p>Над кожною програмою працюємо разом: я та колеги беремо участь у зустрічах, переговорах і розборі складних ситуацій. Команда знає вашу програму та її історію, тому вам не доводиться щоразу пояснювати все з початку.</p>
+        <ul class="principles">
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Спершу з’ясовуємо потреби компанії та працівників, а вже потім пропонуємо рішення.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Пояснюємо умови покриття, обмеження й винятки простими словами.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Залишаємося на зв’язку протягом дії договору, а не лише під час його укладення.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="team" aria-labelledby="team-title">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Команда супроводу</p>
+        <h2 id="team-title">Працюємо командою на кожному етапі</h2>
+        <p class="lead">Над вашою програмою працює команда АСТОН. Кожен колега відповідає за свою ділянку, а разом ми стежимо, щоб рішення були виваженими, а питання не залишалися без уваги.</p>
+      </div>
+      <div class="team">
+        <article class="fn"><h3>Координація роботи зі страховиком</h3><p>Передаємо запити, узгоджуємо зміни й стежимо, щоб питання не губилися між сторонами.</p></article>
+        <article class="fn"><h3>Супровід договору</h3><p>Допомагаємо з поточними питаннями протягом року: списки застрахованих, умови програми, документи.</p></article>
+        <article class="fn"><h3>Допомога зі складними зверненнями</h3><p>Розбираємо ситуації, коли працівникові потрібне роз’яснення або позиція страховика викликає питання.</p></article>
+        <article class="fn"><h3>Аналітика та рекомендації</h3><p>Готуємо огляд того, як використовується програма, і пропозиції щодо умов і бюджету.</p></article>
+      </div>
+      <p class="note"><svg aria-hidden="true"><use href="#i-info"/></svg><span>Звернення із сайту надходять безпосередньо мені, а далі над вашим запитом працює вся наша команда.</span></p>
+    </div>
+  </section>
+
+  <section class="block alt" id="process" aria-labelledby="process-title">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Як починається співпраця</p>
+        <h2 id="process-title">Чотири кроки до зрозумілого плану</h2>
+      </div>
+      <ol class="steps">
+        <li><h3>Знайомство</h3><p>Коротка розмова про компанію, команду та завдання, яке ви хочете вирішити.</p></li>
+        <li><h3>Аналіз потреб і чинної програми</h3><p>Вивчаємо ваші очікування, а якщо програма вже діє — її умови та результати.</p></li>
+        <li><h3>Пропозиція подальших дій</h3><p>Пропонуємо варіанти: що змінити, чи проводити тендер, на що звернути увагу.</p></li>
+        <li><h3>Реалізація та супровід</h3><p>Втілюємо погоджене рішення і супроводжуємо програму протягом дії договору.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="block" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Поширені запитання</p>
+        <h2 id="faq-title">Коротко про головне</h2>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>Чи можна звернутися, якщо договір страхування вже діє?</summary>
+          <div class="ans">Так. Можемо розібратися в умовах чинної програми, допомогти з питаннями, що виникають протягом року, і заздалегідь підготуватися до її поновлення або перегляду.</div>
+        </details>
+        <details>
+          <summary>Чи допомагаєте порівняти пропозиції страхових компаній?</summary>
+          <div class="ans">Так. Допомагаємо сформувати запит до страховиків, зібрати пропозиції та порівняти їх за умовами покриття, обмеженнями, сервісом і вартістю. Рішення ухвалює компанія, а ми пояснюємо, чим відрізняються варіанти.</div>
+        </details>
+        <details>
+          <summary>Чи супроводжуєте після укладення договору?</summary>
+          <div class="ans">Так. Супровід триває протягом дії договору: питання HR і працівників, складні звернення, зміни в програмі та аналіз результатів наприкінці страхового року. Обсяг супроводу погоджуємо на початку співпраці.</div>
+        </details>
+        <details>
+          <summary>Скільки коштують ваші послуги?</summary>
+          <div class="ans">Для компанії-клієнта послуги АСТОН безоплатні: ми не беремо з клієнта винагороди за підбір програми, тендер і супровід, і наша робота не збільшує вартості страхування.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+    <div class="wrap c-grid">
+      <div style="display:grid; gap:20px; min-width:0">
+        <p class="eyebrow">Контакти</p>
+        <h2 id="contacts-title">Обговорімо, яке медичне страхування потрібне вашій команді</h2>
+        <p class="lead">Оберіть зручний час для годинної консультації або напишіть чи зателефонуйте мені напряму, і наша команда візьметься за ваш запит.</p>
+        <div class="btns" id="contact-btns"></div>
+        <p class="free"><svg aria-hidden="true"><use href="#i-check"/></svg>Консультація і супровід для клієнта безоплатні</p>
+      </div>
+      <ul class="c-list" id="c-list">
+        <li><span class="k">Звертайтеся</span><span class="v"><span><b data-field="name">Вікторія Загороднюк</b><br><span data-field="position" style="color:var(--band-soft); font-size:.92rem">Керівниця напряму медичного страхування</span></span></span></li>
+        <li data-row="phone"><span class="k">Телефон</span><span class="v" id="c-phone"></span></li>
+        <li data-row="email"><span class="k">Пошта</span><span class="v" id="c-email"></span></li>
+        <li data-row="linkedin"><span class="k">LinkedIn</span><span class="v" id="c-linkedin"></span></li>
+        <li data-row="office"><span class="k">Офіс</span><span class="v" data-field="office"></span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> <span data-field="name">Вікторія Загороднюк</span> · ТОВ «Астон Україна», страховий брокер, реєстр НБУ № 00011785</span>
+    <a href="https://aston.com.ua" target="_blank" rel="noopener">aston.com.ua</a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var C = window.SITE_CONFIG || {};
+  function esc(t){ var d=document.createElement('div'); d.textContent=t; return d.innerHTML; }
+  document.querySelectorAll('[data-field]').forEach(function(el){ var v=C[el.getAttribute('data-field')]; if (v) el.textContent=v; });
+  if (C.photo) document.querySelectorAll('[data-field-src="photo"]').forEach(function(i){ i.src=C.photo; });
+
+  // Calendly links
+  if (C.calendly) document.querySelectorAll('[data-link="calendly"]').forEach(function(a){ a.href=C.calendly; a.target='_blank'; a.rel='noopener'; });
+
+  function copyBtn(text){
+    var b=document.createElement('button'); b.type='button'; b.className='copy'; b.textContent='Копіювати';
+    b.setAttribute('aria-label','Копіювати '+text);
+    b.addEventListener('click', function(){
+      var done=function(){ b.textContent='Скопійовано'; setTimeout(function(){ b.textContent='Копіювати'; },1600); };
+      try { navigator.clipboard.writeText(text).then(done, function(){}); } catch(e){}
+    });
+    return b;
+  }
+  function fill(id, key, href, label){
+    var row=document.querySelector('[data-row="'+key+'"]');
+    if (!C[key]) { if (row) row.hidden=true; return; }
+    var el=document.getElementById(id); el.textContent='';
+    var a=document.createElement('a'); a.href=href; a.textContent=label||C[key];
+    if (/^https?:/.test(href)) { a.target='_blank'; a.rel='noopener'; }
+    el.appendChild(a); if (key!=='linkedin') el.appendChild(copyBtn(C[key]));
+  }
+  var tel=(C.phone||'').replace(/[^\d+]/g,'');
+  fill('c-phone','phone','tel:'+tel);
+  fill('c-email','email','mailto:'+(C.email||''));
+  fill('c-linkedin','linkedin',C.linkedin,'Профіль LinkedIn');
+  if (!C.office) { var o=document.querySelector('[data-row="office"]'); if (o) o.hidden=true; }
+
+  var btns=document.getElementById('contact-btns'), h='';
+  if (C.calendly) h+='<a class="btn btn-primary" href="'+esc(C.calendly)+'" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-cal"/></svg>Записатися на консультацію</a>';
+  if (C.phone) h+='<a class="btn btn-ghost" href="tel:'+esc(tel)+'">Зателефонувати</a>';
+  if (C.email) h+='<a class="btn btn-ghost" href="mailto:'+esc(C.email)+'?subject='+encodeURIComponent('Медичне страхування для компанії')+'">Написати листа</a>';
+  btns.innerHTML=h;
+
+  var mb=document.getElementById('menu-btn'), nav=document.getElementById('menu');
+  function close(){ nav.classList.remove('open'); mb.setAttribute('aria-expanded','false'); mb.textContent='Меню'; }
+  mb.addEventListener('click', function(){ var o=nav.classList.toggle('open'); mb.setAttribute('aria-expanded', o); mb.textContent = o ? 'Закрити' : 'Меню'; });
+  nav.addEventListener('click', function(e){ if (e.target.closest('a')) close(); });
+  document.addEventListener('keydown', function(e){ if (e.key==='Escape') close(); });
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
